@@ -5,6 +5,12 @@ menuIcon.onclick = () => {
     navLinks.classList.toggle('active');
 }
 
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+    });
+});
+
 let lastScrollTop = 0;
 const header = document.getElementById('header');
 
