@@ -8,8 +8,9 @@
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid var(--lila);
-    filter: hue-rotate(250deg) saturate(150%) brightness(1.2);
+    filter: hue-rotate(250deg);
     transition: filter 0.5s ease;
+    margin-bottom: 22.5rem;
 }
 
 .sobremi-info img:hover {
