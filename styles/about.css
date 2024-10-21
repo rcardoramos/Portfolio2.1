@@ -92,3 +92,12 @@ section {
 .socials i:hover {
     transform: scale(1.1);
 }
+
+.socials a {
+    color: var(--lila);
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: var(--lila);
+}
