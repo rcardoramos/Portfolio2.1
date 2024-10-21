@@ -16,7 +16,6 @@
     scroll-behavior: smooth;
     list-style: none;
     background: var(--background);
-    overflow-x: hidden;
 }
 
 :root {
