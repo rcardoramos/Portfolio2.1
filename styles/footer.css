@@ -26,3 +26,7 @@ footer ul li a {
     margin-top: 2rem;
     color: var(--primary-text-color);
 }
+
+.copyright a {
+    color: #64ffda;
+}

@@ -1,5 +1,9 @@
 .container {
-    padding: 5rem;
+    padding: 1rem;
+}
+
+.container p {
+    padding: 10px;
 }
 
 .sobremi-info img {
@@ -8,9 +12,10 @@
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid var(--lila);
-    filter: hue-rotate(250deg);
-    transition: filter 0.5s ease;
-    margin-bottom: 22.5rem;
+    /* filter: hue-rotate(250deg); */
+    background-color: var(--lila);
+    /* transition: filter 0.5s ease; */
+    margin-bottom: 15rem;
 }
 
 .sobremi-info img:hover {
@@ -25,11 +30,13 @@
 }
 
 .text {
-    margin: 0px 0px 15px;
-    font-size: 18px;
+    margin: 0px 0px 5px;
+    font-size: 15px;
     color: var(--secondary-text-color);
-    padding: 5px;
+}
 
+.text li {
+    margin-right: 50px;
 }
 
 .class-list {
@@ -45,7 +52,7 @@
 .class-list li::before {
     content: "▹";
     position: relative;
-    left: 0px;
+    left: -5px;
     color: var(--lila);
     font-size: 16px;
     line-height: 12px;

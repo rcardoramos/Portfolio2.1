@@ -1,3 +1,12 @@
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: -20px;
+    padding: 20px;
+}
+
+
 .input-box {
     display: flex;
     flex-direction: column;
@@ -8,28 +17,39 @@
     margin-top: 5rem;
 }
 
-.input-box input {
+p {
+    max-width: 600px;
+    /* Ajusta el ancho máximo del párrafo */
+    margin: 0 auto;
+    /* Centra el párrafo */
+    line-height: 1.6;
+    /* Mejora la legibilidad */
+    font-size: 0.9rem;
+    /* Reduce el tamaño de la fuente */
+}
+
+/* .input-box input {
     border-radius: 3rem;
     border: 3px solid var(--lila);
     padding: 2rem 8rem;
     font-size: 3rem;
     color: var(--primary-text-color);
-}
+} */
 
-.input-box input::placeholder {
+/* .input-box input::placeholder {
     font-size: 2.8rem;
     color: var(--secondary-text-color);
-}
+} */
 
-.input {
+/* .input {
     position: relative;
-}
+} */
 
-.input i {
+/* .input i {
     position: absolute;
     font-size: 4rem;
     top: 50%;
     left: 10px;
     transform: translate(50%, -50%);
     color: var(--primary-text-color);
-}
+} */
