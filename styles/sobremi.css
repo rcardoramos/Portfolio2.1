@@ -7,15 +7,15 @@
 }
 
 .sobremi-info img {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 16vw;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid var(--lila);
     /* filter: hue-rotate(250deg); */
     background-color: var(--lila);
     /* transition: filter 0.5s ease; */
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
 
 .sobremi-info img:hover {
