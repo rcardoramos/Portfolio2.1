@@ -14,18 +14,14 @@
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 p {
     max-width: 600px;
-    /* Ajusta el ancho máximo del párrafo */
     margin: 0 auto;
-    /* Centra el párrafo */
     line-height: 1.6;
-    /* Mejora la legibilidad */
     font-size: 0.9rem;
-    /* Reduce el tamaño de la fuente */
 }
 
 /* .input-box input {
