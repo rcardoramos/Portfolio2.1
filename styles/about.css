@@ -18,10 +18,11 @@ section {
     gap: 10rem;
 }
 
+/* 
 .about img {
     width: 20vw;
     border-radius: 70%;
-}
+} */
 
 .info-box {
     display: flex;
