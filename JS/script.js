@@ -22,17 +22,17 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-let lastScrollTop = 0;
-const header = document.getElementById('header');
+// let lastScrollTop = 0;
+// const header = document.getElementById('header');
 
-window.addEventListener('scroll', function () {
-    let scrollTop = window.scrollY || document.getElement.scrollTop;
+// window.addEventListener('scroll', function () {
+//     let scrollTop = window.scrollY || document.getElement.scrollTop;
 
-    if (scrollTop > lastScrollTop) {
-        header.classList.add('hideen');
-    } else {
-        header.classList.remove('hidden');
-    }
+//     if (scrollTop > lastScrollTop) {
+//         header.classList.add('hideen');
+//     } else {
+//         header.classList.remove('hidden');
+//     }
 
-    lastScrollTop = scrollTop;
-});
+//     lastScrollTop = scrollTop;
+// });
